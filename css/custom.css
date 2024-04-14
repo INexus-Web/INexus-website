@@ -1,0 +1,30 @@
+section {
+    min-height: 100vh;
+}
+
+.profile-height > div {
+    padding: 5px;
+}
+
+.profile-height > div:first-of-type {
+    border-style: double;
+    border-top: none;
+    border-left: none;
+}
+
+.profile-height > div:last-of-type {
+    border-style: double;
+    border-bottom: none;
+    border-right: none;
+}
+
+.profile-height > div > div {
+    height: 250px;
+}
+
+.profile-height .image {
+    /* mix-blend-mode: color-burn; */
+    height: 100%;
+    width: 40%;
+    border-radius: 50%;
+}
