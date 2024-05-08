@@ -75,30 +75,25 @@ section {
 }
 
 /* <!-- footer page --> */
-.flex-wrapper {
-    display: flex;
-    justify-content: start;
-    gap: 200px;
-    align-items: center;
-}
 .address {
     display: flex;
 }
+
+.sns-wrapper {
+    display: flex;
+    gap: 30px;
+}
 .sns-wrapper a {
-    display: inline-block;
     color: black;
     text-decoration: none;
 }
-.sns-wrapper {
-    display: flex;
-    flex-direction: column;
-    /* justify-content: center; */
-    gap: 20px;
-    
-}
+
+
 .address dt{
     float: left;
+    padding: 5px;
 }
 .address dd {
     margin-bottom: 20px;
+    padding: 5px;
 }
