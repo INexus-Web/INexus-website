@@ -1,7 +1,16 @@
+
+.header-logo img{
+    width: 50px;
+    border-radius: 50%;
+}
 section {
-    min-height: 100vh;
+    /* min-height: 100vh; */
+    margin-block: 100px;
 }
 
+/* .top-slide-box img{
+    width:100px;
+} */
 .profile-height > div {
     padding: 5px;
 }
@@ -27,4 +36,69 @@ section {
     height: 100%;
     width: 40%;
     border-radius: 50%;
+    object-fit: cover;
+}
+.card-body {
+    position: relative;
+    padding: 40px!important;
+
+}
+.card-body span {
+    display: inline-block;
+    position: absolute;
+    top: 30px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+
+
+    font-size: 12px;
+    /* color: red; */
+}
+
+/* <!-- services page --> */
+.services  strong {
+    color: red;
+}
+
+
+.skills-icon {
+    font-size: 100px;
+}
+
+.country-flag {
+    width: 300px;
+}
+.icon-services {
+    width: 150px;
+}
+
+/* <!-- footer page --> */
+.flex-wrapper {
+    display: flex;
+    justify-content: start;
+    gap: 200px;
+    align-items: center;
+}
+.address {
+    display: flex;
+}
+.sns-wrapper a {
+    display: inline-block;
+    color: black;
+    text-decoration: none;
+}
+.sns-wrapper {
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 20px;
+    
+}
+.address dt{
+    float: left;
+}
+.address dd {
+    margin-bottom: 20px;
 }
