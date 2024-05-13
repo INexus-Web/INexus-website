@@ -20,20 +20,17 @@
 			<div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
 				<ul class="navbar-nav mb-2 mb-lg-0">
 					<li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#">Home</a>
-					</li>
-					<li class="nav-item">
 						<a class="nav-link active" aria-current="page" href="#about-us">About Us</a>
-					</li>
+					</li>			
 					<li class="nav-item">
 						<a class="nav-link active" aria-current="page" href="#profile">Profile</a>
 					</li>
 					<li class="nav-item">
 						<a class="nav-link active" aria-current="page" href="#services">Services</a>
 					</li>
-					<!-- <li class="nav-item">
-						<a class="nav-link active" aria-current="page" href="#stack">Stack</a>
-					</li> -->
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#portfolio">Portfolio</a>
+					</li>
 					<li class="nav-item">
 						<a class="nav-link active" aria-current="page" href="#contact">Contact</a>
 					</li>
@@ -44,19 +41,17 @@
 
 	<main>
 		<!-- landing page -->
-		<section id="home">
+		<!-- <section id="home">
 			<div id="carouselExampleInterval" class="carousel slide" data-bs-ride="carousel">
 				<div class="carousel-inner">
 					<div class="carousel-item active top-slide-box" data-bs-interval="10000">
-					<img src="./images/slide1.jpg" class="d-block w-100 top-slide" alt="...">
-						<!-- <svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: First slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"></rect><text x="50%" y="50%" fill="#555" dy=".3em">First slide</text></svg> -->
+						<a href="">
+					<img src="./images/slide1.jpg" class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" idth="800" height="400"></a>
 					</div>
 					<div class="carousel-item" data-bs-interval="2000">
-					<!-- <img src="..." class="d-block w-100" alt="..."> -->
 						<svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Second slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#666"></rect><text x="50%" y="50%" fill="#444" dy=".3em">Second slide</text></svg>
 					</div>
 					<div class="carousel-item">
-					<!-- <img src="..." class="d-block w-100" alt="..."> -->
 						<svg class="bd-placeholder-img bd-placeholder-img-lg d-block w-100" width="800" height="400" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: Third slide" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#555"></rect><text x="50%" y="50%" fill="#333" dy=".3em">Third slide</text></svg>
 					</div>
 				</div>
@@ -69,7 +64,7 @@
 					<span class="visually-hidden">Next</span>
 				</button>
 			</div>
-		</section>
+		</section> -->
 		<!-- end of landing page -->
 		
 		<!-- about-us page -->
@@ -92,7 +87,7 @@
 								
 							</p>
 							<p class="mb-4">Pellentesque aliquam dolor eget urna ultricies tincidunt. Nam volutpat libero sit amet leo cursus, ac viverra eros tristique. Morbi quis quam mi. Cras vel gravida eros. Proin scelerisque quam nec elementum viverra. Suspendisse viverra hendrerit diam in tempus.</p>
-							<a href="" class="btn btn-secondary rounded-pill px-5 py-3 text-white">More Details</a>
+							<a href="portfolio.html" class="btn btn-secondary rounded-pill px-5 py-3 text-white">Check portfolio ></a>
 						</div>
 					</div>
 				</div>
@@ -257,6 +252,42 @@
 		</section>
 		<!-- end of services page -->
 
+		<!-- portfolio page -->
+		<section id="portfolio" class="portfolio">
+			<div class="container-fluid services py-5 mb-5">
+				<div class="container">
+					<h1 class="mb-2 text-capitalize">Our <span class="text-primary">Portfolios</span></h1>
+					<div class="works">
+						<div class="work">
+							<a href="" class="work__link">
+								<img src="/images/portfolio-namiki1.png" alt="" class="work__img">
+							</a>
+							<div class="portfolio-btn"><a class="portfolio-btn-link" href="https://namiki-niwa.github.io/visit_chino/">Click to Check</a></div>
+						</div>
+						<div class="work">
+							<a href="" class="work__link">
+								<img src="/images/portfolio-ryo.png" alt="" class="work__img">
+							</a>
+							<div class="portfolio-btn"><a class="portfolio-btn-link" href="https://dannoryo.github.io/original_website/">Click to Check</a></div>
+						</div>
+						<div class="work">
+							<a href="" class="work__link">
+								<img src="/images/portfolio-dexter.png" alt="" class="work__img">
+							</a>
+							<div class="portfolio-btn"><a class="portfolio-btn-link" href="https://drexcalum.github.io/DrexStoreEcommerce/">Click to Check</a></div>
+						</div>
+						<div class="work">
+							<a href="" class="work__link">
+								<img src="/images/portfolio-namiki2.png" alt="" class="work__img">
+							</a>
+							<div class="portfolio-btn"><a class="portfolio-btn-link" href="https://namiki-niwa.github.io/obolon/">Click to Check</a></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- end of portfolio page -->
+
 		<!-- contact page -->
 		<section id="contact">
 			<div class="container-fluid">
@@ -276,8 +307,8 @@
 						</div>
 						<div class="sns-wrapper">
 							<a href="#"><img src="./images/sns-icon/icon-facebook.png" alt="icon"></a>
-							<a href="#"><img src="./images/sns-icon/icon-instagram.png" alt="icon"></a>
-							<a href="#"><img src="./images/sns-icon/icon-twitterx.png" alt="icon"></a>
+							<a href="https://www.instagram.com/inexus416/"><img src="./images/sns-icon/icon-instagram.png" alt="icon"></a>
+							<a href="https://twitter.com/INexus_cop"><img src="./images/sns-icon/icon-twitterx.png" alt="icon"></a>
 						</div>
 					</div>
 				</div>
