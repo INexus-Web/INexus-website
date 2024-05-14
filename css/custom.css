@@ -181,3 +181,10 @@ main {
   .portfolio-btn-link:hover::after {
     transform: translate(5px, -50%) rotate(-30deg);
   }
+
+  /* top slide */
+  .slide-img {
+    max-width: 100%!important;
+    height: 80vh;
+    object-fit: cover;
+  }
